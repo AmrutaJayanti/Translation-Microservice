@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Testing artifacts
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# Uvicorn reload files
+*.reload
+
+# dotenv
+.env
+.env.*
