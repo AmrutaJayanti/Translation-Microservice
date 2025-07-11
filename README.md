@@ -35,3 +35,31 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
+### 3. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Run the FastAPI server
+
+```
+uvicorn translation_microservice.main:app --reload
+```
+
+## 🔧 Folder Structure
+
+```
+translation_microservice/
+├── main.py
+├── routes/
+│   └── translate.py
+├── models/
+│   └── schema.py
+├── services/
+│   └── translator.py
+├── utils/
+│   └── logger.py
+├── requirements.txt
+└── translation_logs.db
+```
