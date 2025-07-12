@@ -63,3 +63,6 @@ translation_microservice/
 ├── requirements.txt
 └── translation_logs.db
 ```
+
+#### 📽️ Working DEMO 
+[LINK](https://youtu.be/vFkOAWXGjMI)
